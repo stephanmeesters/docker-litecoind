@@ -1,4 +1,4 @@
-FROM ubuntu:zesty
+FROM ubuntu:16.04
 
 LABEL maintainer "Santiago Alessandri <san.lt.ss@gmail.com>"
 
