@@ -28,7 +28,6 @@ RUN apt-get remove --purge -y \
 
 VOLUME ["/litecoin"]
 
-EXPOSE 9333 9332
 
 COPY ["bin", "/usr/local/bin/"]
 COPY ["docker-entrypoint.sh", "/usr/local/bin/"]
