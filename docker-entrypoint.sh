@@ -11,4 +11,4 @@ cat /litecoin/litecoin.conf
 echo ""
 echo "################################################"
 
-exec litecoin-cli -datadir=/litecoin -conf=/litecoin/litecoin.conf -printtoconsole "$@"
+exec litecoind -datadir=/litecoin -conf=/litecoin/litecoin.conf -printtoconsole "$@"
