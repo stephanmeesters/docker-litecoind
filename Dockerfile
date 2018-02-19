@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 LABEL maintainer "Santiago Alessandri <san.lt.ss@gmail.com>"
 
-RUN add-apt-repository ppa:shutter/ppa
+RUN add-apt-repository ppa:shutter/ppa && \
     apt-get update && \
     apt-get install -y --no-install-recommends \
         ca-certificates \
